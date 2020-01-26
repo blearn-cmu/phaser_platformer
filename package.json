@@ -1,25 +1,27 @@
 {
-  "name": "phaser_boilerplate",
+  "name": "phaser_platformer",
   "version": "1.0.0",
   "description": "boilerplate code for a phaser 3 project",
   "main": "index.js",
   "dependencies": {
-    "http-server": "^0.12.1",
     "phaser": "^3.22.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "http-server": "^0.12.1",
+    "typescript": "^3.7.5"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node node_modules/http-server/bin/http-server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blearn-cmu/phaser_boilerplate.git"
+    "url": "git+https://github.com/blearn-cmu/phaser_platformer.git"
   },
   "author": "Bryan Learn",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/blearn-cmu/phaser_boilerplate/issues"
+    "url": "https://github.com/blearn-cmu/phaser_platformer/issues"
   },
-  "homepage": "https://github.com/blearn-cmu/phaser_boilerplate#readme"
+  "homepage": "https://github.com/blearn-cmu/phaser_platformer#readme"
 }
